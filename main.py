@@ -5,7 +5,7 @@ if len(sys.argv) < 2:
     print("Usage: python3 main.py <path_to_book>") #From boot.dev!
     sys.exit(1)
 else:
-    book_path = sys.argv[1]
+    book_path = sys.argv[1] #From bootdev
 
 def get_book_text(path_to_file):
     with open(path_to_file) as f:
